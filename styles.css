@@ -1,0 +1,100 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: hsl(0, 0%, 96%);
+  font-size: 15px;
+}
+
+img {
+  width: 15%;
+  position: relative;
+  left: 350px;
+}
+
+
+/* header section */
+
+.heading {
+  text-align: center;
+  margin: 10% 20% 5%;
+}
+
+.label {
+  font-size: 2rem;
+  font-weight: 200;
+  margin-bottom: 0;
+  opacity: 0.5;
+}
+
+.sub-text {
+  opacity: 0.5;
+}
+
+/* Body section */
+
+.card {
+  background-color: white;
+  padding: 8%;
+}
+
+.card-text {
+  opacity: 0.5;
+}
+
+.supervisor {
+  border-top-color: hsl(180, 62%, 55%);
+  border-top-width: thick;
+  position: relative;
+  top: 100px;
+}
+
+.team {
+  border-top-color: hsl(0, 78%, 62%);
+  border-top-width: thick;
+}
+
+.karma {
+  border-top-color: hsl(34, 97%, 64%);
+  border-top-width: thick;
+  margin-top: 20px;
+}
+
+.calculator {
+  border-top-color: hsl(212, 86%, 64%);
+  border-top-width: thick;
+  position: relative;
+  top: 100px;
+}
+
+/* footer text */
+
+.attribution {
+  position: relative;
+  top: 100px;
+}
+
+@media (max-width:1440px) {
+
+    img {
+      left: 200px;
+    }
+
+    .row {
+      margin: 3%;
+    }
+
+    .supervisor {
+      top: 0;
+      margin-bottom: 20px;
+    }
+
+    .karma {
+      margin-bottom: 20px;
+    }
+
+    .calculator {
+      top: 0;
+    }
+
+
+}
